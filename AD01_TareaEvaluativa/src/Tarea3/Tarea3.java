@@ -20,8 +20,8 @@ public class Tarea3 {
 
 		private static void comprobarCabeceraPDF() {
 			
-			String dir = ("." + File.separator + "src" + File.separator + "Tarea3" + File.separator + "documento.pdf");	
-			//String dir = ("." + File.separator + "src" + File.separator + "Tarea3" + File.separator + "Doc1.txt");	
+			//String dir = ("." + File.separator + "src" + File.separator + "Tarea3" + File.separator + "documento.pdf");	
+			String dir = ("." + File.separator + "src" + File.separator + "Tarea3" + File.separator + "Doc1.txt");	
 			File fil = new File(dir);
 			
 			int[] cabeceraPDF = {37, 80, 68, 70};
